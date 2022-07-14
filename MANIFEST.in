@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include session_history *.css
+recursive-include session_history *.csv
+recursive-include session_history *.html
+recursive-include session_history *.ico
+recursive-include session_history *.js
+recursive-include session_history *.json
+recursive-include session_history *.md
+recursive-include session_history *.png
+recursive-include session_history *.py
+recursive-include session_history *.svg
+recursive-include session_history *.txt
+recursive-exclude session_history *.pyc
