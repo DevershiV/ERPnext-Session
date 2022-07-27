@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-19 08:36:10.580703",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sessions",
+  "intent",
+  "package",
+  "date_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "sessions",
+   "fieldtype": "Link",
+   "label": "Sessions",
+   "options": "Session History Collection"
+  },
+  {
+   "fetch_from": "sessions.intent",
+   "fieldname": "intent",
+   "fieldtype": "Data",
+   "label": "Intent",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "sessions.package",
+   "fieldname": "package",
+   "fieldtype": "Data",
+   "label": "Package/Service of interest",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "sessions.datetime",
+   "fieldname": "date_time",
+   "fieldtype": "Data",
+   "label": "Date Time",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-27 13:37:46.614319",
+ "modified_by": "Administrator",
+ "module": "Session History",
+ "name": "Session table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
