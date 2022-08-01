@@ -1,0 +1,43 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-07-20 07:30:17.673064",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Session History Module",
+ "links": [],
+ "modified": "2022-08-01 05:15:40.168440",
+ "modified_by": "Administrator",
+ "module": "Session History",
+ "name": "Session History Module",
+ "owner": "user@example.com",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Session History",
+   "link_to": "Session History",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Session History Collection",
+   "link_to": "Session History Collection",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Filter",
+   "link_to": "Filter",
+   "type": "DocType"
+  }
+ ]
+}
