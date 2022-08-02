@@ -1,6 +1,5 @@
 // Copyright (c) 2022, Devershi and contributors
 // For license information, please see license.txt
-
 frappe.ui.form.on("Filter", {
     refresh: function(frm) {
         if (!frm.is_new()) {
@@ -55,7 +54,8 @@ frappe.ui.form.on("Filter", {
             frappe.db.get_list('Email Group Member', {
                 fields: ['email'],
                 filters: {
-                    email: ['in', emails]
+                    email: ['in', emails],
+		    'email_group': email_group
                 }
             }).then(data => {
                 if (data.length) {
@@ -83,10 +83,10 @@ frappe.ui.form.on("Filter", {
                         });
                     }
                     frappe.call({
-        method: "frappe.client.insert_many",
-        type: 'POST',
-        args: {docs: docsList.slice()}
-        });
+        				method: "frappe.client.insert_many",
+        				type: 'POST',
+        				args: {docs: docsList.slice()}
+        			});
                 }
             });
         });
