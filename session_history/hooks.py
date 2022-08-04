@@ -9,6 +9,26 @@ app_color = "grey"
 app_email = "user@example.com"
 app_license = "MIT"
 
+fixtures = [
+	{"dt": "Role", "filters": [
+		[
+		"name", "in", [
+			"Session Master",
+			"Session User",
+			"Session Viewer"
+			]
+		]
+	]},
+	{"dt": "Custom DocPerm", "filters": [
+		[
+		"role", "in", [
+			"Session Master",
+			"Session User",
+			"Session Viewer"
+			]
+		]
+	]},
+]
 # Includes in <head>
 # ------------------
 
