@@ -13,13 +13,13 @@
  "is_standard": 1,
  "label": "Session History Module",
  "links": [],
- "modified": "2022-08-01 05:15:40.168440",
+ "modified": "2022-08-04 07:53:59.110646",
  "modified_by": "Administrator",
  "module": "Session History",
  "name": "Session History Module",
  "owner": "user@example.com",
  "pin_to_bottom": 0,
- "pin_to_top": 0,
+ "pin_to_top": 1,
  "shortcuts": [
   {
    "doc_view": "",
@@ -37,6 +37,36 @@
    "doc_view": "",
    "label": "Filter",
    "link_to": "Filter",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Customer",
+   "link_to": "Customer",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Address",
+   "link_to": "Address",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Contact",
+   "link_to": "Contact",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Email Group",
+   "link_to": "Email Group",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Email Group Member",
+   "link_to": "Email Group Member",
    "type": "DocType"
   }
  ]
