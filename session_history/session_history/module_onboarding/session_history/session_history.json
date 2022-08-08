@@ -1,0 +1,41 @@
+{
+ "allow_roles": [
+  {
+   "role": "Session Master"
+  },
+  {
+   "role": "Session User"
+  },
+  {
+   "role": "Session Viewer"
+  }
+ ],
+ "creation": "2022-08-08 08:04:51.896791",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "No documentation",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2022-08-08 08:04:51.896791",
+ "modified_by": "Administrator",
+ "module": "Session History",
+ "name": "Session History",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Create Customer"
+  },
+  {
+   "step": "Create Session History Collection"
+  },
+  {
+   "step": "Create Session History"
+  },
+  {
+   "step": "Create Filter"
+  }
+ ],
+ "subtitle": "Lead generation, Session History and Email group",
+ "success_message": "Completed Successfully",
+ "title": "Session History"
+}

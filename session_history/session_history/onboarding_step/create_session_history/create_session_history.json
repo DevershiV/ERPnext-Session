@@ -1,0 +1,23 @@
+{
+ "action": "Create Entry",
+ "creation": "2022-08-08 08:03:17.791284",
+ "description": "Check all session histories of a customer. If it is an existing entry use update sessions button, if not then create a new entry.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2022-08-08 08:03:17.791284",
+ "modified_by": "Administrator",
+ "name": "Create Session History",
+ "owner": "Administrator",
+ "reference_document": "Session History",
+ "reference_report": "",
+ "report_reference_doctype": "",
+ "report_type": "",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Check Session History",
+ "validate_action": 1
+}
