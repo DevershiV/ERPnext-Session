@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\": \"shortcut\", \"data\": {\"Session History\": \"DocType\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"Session History Collection\": \"DocType\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"Filter\": \"DocType\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"Customer Information\": \"Data\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"Email Group\": \"Data\", \"col\": 4}}]",
+ "content": "[{\"type\": \"onboarding\", \"data\": {\"onboarding_name\":\"Session History\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History Collection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Filter\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Customer Information\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Email Group\", \"col\": 4}}]",
  "creation": "2022-07-20 07:30:17.673064",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,7 +9,7 @@
  "public": 1,
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 31,
+ "sequence_id": 11,
  "title": "Session History Module",
  "hide_custom": 0,
  "idx": 0,
