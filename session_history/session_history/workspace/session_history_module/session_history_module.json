@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\": \"onboarding\", \"data\": {\"onboarding_name\":\"Session History\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History Collection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Filter\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Customer Information\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Email Group\", \"col\": 4}}]",
+ "content": "[{\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History Collection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Filter\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Customer Information\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Email Group\", \"col\": 4}}]",
  "creation": "2022-07-20 07:30:17.673064",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -110,7 +110,7 @@
  "modified_by": "Administrator",
  "module": "Session History",
  "name": "Session History Module",
- "onboarding": "Session History",
+ "onboarding": "",
  "owner": "user@example.com",
  "shortcuts": [
   {
