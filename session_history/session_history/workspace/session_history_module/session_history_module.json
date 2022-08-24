@@ -1,28 +1,19 @@
 {
  "charts": [],
- "content": "[{\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History Collection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Filter\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Customer Information\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Email Group\", \"col\": 4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Session History Module</span>\",\"col\":12}},{\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Session History Collection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Filter\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Customer Information\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Email Group\", \"col\": 4}}]",
  "creation": "2022-07-20 07:30:17.673064",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
- "parent_page": "",
- "public": 1,
- "restrict_to_domain": "",
- "roles": [],
- "sequence_id": 11,
- "title": "Session History Module",
  "hide_custom": 0,
  "idx": 0,
- "is_default": 0,
  "label": "Session History Module",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
    "label": "Customer Information",
-   "link_count": 0,
-   "link_to": "",
-   "link_type": "Report",
+   "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -80,8 +71,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Email Group",
-   "link_count": 0,
-   "link_type": "DocType",
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -110,22 +100,28 @@
  "modified_by": "Administrator",
  "module": "Session History",
  "name": "Session History Module",
- "owner": "user@example.com",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 11,
+ "title": "Session History Module",
  "shortcuts": [
   {
-   "doc_view": "",
+   "doc_view": "List",
    "label": "Session History",
    "link_to": "Session History",
    "type": "DocType"
   },
   {
-   "doc_view": "",
+   "doc_view": "List",
    "label": "Session History Collection",
    "link_to": "Session History Collection",
    "type": "DocType"
   },
   {
-   "doc_view": "",
+   "doc_view": "List",
    "label": "Filter",
    "link_to": "Filter",
    "type": "DocType"
